@@ -2,61 +2,54 @@ html body{
   font: "neuton";
   background-color: #383838;
   color: white;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
 
-.container-navbar{
-  padding: 0;
-  background-color: rgba(30,30,30,.1);
-  height: 100%;
 }
-.title-navbar{
-  font: 700 3em/1 "oswald", sans-serif;
-  letter-spacing: 0;
-  padding: .25em 0 .325em;
-  display: block;
-  margin: 0 auto;
-  text-shadow: 0 0 80px rgb(255, 255, 255, 0,5);
-  background: url('http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png') repeat-y;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation:  aitf 80s linear infinite;
-  -webkit-backface-visibility: hidden;
+body .container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
 }
-@-webkit-keyframes aitf{
-  0%{
-    background-position: 0% 50%;
-  }
-  100%{
-    background-position: 100% 50%;
-  }
+.navbar{
+  background-color: #171717;
+  min-height: 51px;
+  border-color: #333;
+  color: #f1f1f1;
+  height: auto;
 }
-
 .work3D{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.flex-block{
   display: flex;
-  flex-direction: center;
+  justify-content: center;
   flex-wrap: wrap;
 
 }
 .item-work3D{
   min-width: 0;
-  margin: 40px;
+  margin: 5px;
 }
-img{
-  width: 540px;
-  max-width: 100%;
-  max-height: 400px;
-  box-shadow: 10px 10px 5px black;
 
+img{
+  width: 550px;
+  max-width: 100%;
+  max-height: 300px;
 }
 
 video {
   width: 100%;
   height: auto;
 
+}
+.content{
+  background-color: #171717;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.content h1{
+  margin-bottom: 50px;
 }
