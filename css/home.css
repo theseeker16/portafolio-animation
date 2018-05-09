@@ -54,6 +54,7 @@ video {
 .content h1{
   margin-bottom: 50px;
 }
-body footer{
+.copyright{
   text-align: center;
+  margin: 5px;
 }
